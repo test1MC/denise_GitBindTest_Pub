@@ -477,69 +477,6 @@ a.glossaryTerm
 	display: none;
 }
 
-.backlink-container
-{
-	position: absolute;
-	bottom: 11px;
-	right: 20px;
-}
-
-.backlink-container-topnav
-{
-	bottom: 4px;
-	right: 4px;
-}
-
-.backlink-container-sidenav
-{
-	bottom: 20px;
-	right: 20px;
-}
-
-#mc-backlink
-{
-	text-decoration: none;
-	color: #7d858a;
-	font-size: 15px;
-	font-family: Arial;
-	font-weight: normal;
-}
-
-#mc-backlink > sup
-{
-	font-size: 12px;
-}
-
-.height-container
-{
-	/* just to contain top margin of element inside */
-	padding-top: 0.1px;
-	position: relative;
-	box-sizing: border-box;
-}
-
-.height-container-no-footer
-{
-	padding-bottom: 30px;
-}
-
-.height-container-sidenav
-{
-	padding-bottom: 40px;
-}
-
-/* to contain floating elements in the div */
-
-.height-container:after
-{
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-
 div.MCBreadcrumbsBox_0
 {
 	border-bottom: none;
