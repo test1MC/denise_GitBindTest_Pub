@@ -2,7 +2,7 @@
 
 /* Prevents Safari in landscape orientation from zooming in on text*/
 
-body
+.micro-response
 {
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
@@ -12,26 +12,26 @@ body
 
 /* Css to prevent Chrome's automatic border around active fields*/
 
-*:focus
+.micro-response *:focus
 {
 	outline: none;
 }
 
 /* Default css class for hiding element*/
 
-.hidden
+.micro-response .hidden
 {
 	display: none;
 }
 
-a.glossaryTerm
+.micro-response a.glossaryTerm
 {
 	text-decoration: none;
 }
 
 /**/
 
-#ios-wrapper
+.micro-response #ios-wrapper
 {
 	width: 100%;
 	height: 100%;
@@ -39,30 +39,30 @@ a.glossaryTerm
 	-webkit-overflow-scrolling: touch;
 }
 
-.img_off
+.micro-response .img_off
 {
 	display: none;
 }
 
 /* Feedback/Pulse */
 
-.pulse-required,
-.feedback-required,
-.feedback-topic-required
+.micro-response .pulse-required,
+.micro-response .feedback-required,
+.micro-response .feedback-topic-required
 {
 	display: none;
 }
 
-.pulse-active .pulse-required,
-.feedback-active .feedback-required,
-.feedback-active.has-topic .feedback-topic-required
+.micro-response .pulse-active .pulse-required,
+.micro-response .feedback-active .feedback-required,
+.micro-response .feedback-active.has-topic .feedback-topic-required
 {
 	display: block;
 }
 
 /* Login Dialog */
 
-.login-dialog
+.micro-response .login-dialog
 {
 	display: none;
 	z-index: 10001;
@@ -80,7 +80,7 @@ a.glossaryTerm
 	box-shadow: 0 4px 10px #333333;
 }
 
-.login-dialog.pulse
+.micro-response .login-dialog.pulse
 {
 	position: fixed;
 	width: 408px;
@@ -89,7 +89,7 @@ a.glossaryTerm
 	margin-top: -214px;
 }
 
-#pulse-login-frame
+.micro-response #pulse-login-frame
 {
 	width: 100%;
 	height: 100%;
@@ -102,7 +102,7 @@ a.glossaryTerm
 	box-shadow: 0 4px 10px #333333;
 }
 
-.login-dialog-header
+.micro-response .login-dialog-header
 {
 	color: #FFF;
 	font-size: 13px;
@@ -134,7 +134,7 @@ a.glossaryTerm
 	border-radius: 3px 3px 0 0;
 }
 
-.login-dialog-content
+.micro-response .login-dialog-content
 {
 	border-top: solid 1px #767676;
 	background: #5A5A5A;
@@ -146,7 +146,7 @@ a.glossaryTerm
 	padding: 17px;
 }
 
-.login-dialog-content .profile-item-wrapper
+.micro-response .login-dialog-content .profile-item-wrapper
 {
 	color: #CECECE;
 	margin-bottom: 10px;
@@ -154,18 +154,18 @@ a.glossaryTerm
 	line-height: 32px;
 }
 
-.login-dialog-content .profile-item-wrapper .label-wrapper
+.micro-response .login-dialog-content .profile-item-wrapper .label-wrapper
 {
 	margin-bottom: 5px;
 	float: left;
 }
 
-.login-dialog-content .profile-item-wrapper .input-wrapper
+.micro-response .login-dialog-content .profile-item-wrapper .input-wrapper
 {
 	float: right;
 }
 
-.login-dialog-content .profile-item-wrapper input[type=text]
+.micro-response .login-dialog-content .profile-item-wrapper input[type=text]
 {
 	margin: 0;
 	padding: 5px;
@@ -180,19 +180,19 @@ a.glossaryTerm
 	outline: none;
 }
 
-.login-dialog-content .profile-item-wrapper.email-notifications-wrapper
+.micro-response .login-dialog-content .profile-item-wrapper.email-notifications-wrapper
 {
 	margin-top: 15px;
 	height: auto;
 	line-height: normal;
 }
 
-.login-dialog-content .profile-item-wrapper.email-notifications-wrapper .label-wrapper
+.micro-response .login-dialog-content .profile-item-wrapper.email-notifications-wrapper .label-wrapper
 {
 	float: none;
 }
 
-.login-dialog-content .profile-item-wrapper.email-notifications-wrapper .email-notifications-group
+.micro-response .login-dialog-content .profile-item-wrapper.email-notifications-wrapper .email-notifications-group
 {
 	margin-right: 0;
 	padding: 12px;
@@ -208,19 +208,19 @@ a.glossaryTerm
 	box-shadow: 0 1px #888;
 }
 
-.login-dialog-content .profile-item-wrapper.error input,
-.login-dialog-content .profile-item-wrapper.error select
+.micro-response .login-dialog-content .profile-item-wrapper.error input,
+.micro-response .login-dialog-content .profile-item-wrapper.error select
 {
 	border: solid 1px #F00;
 	background-color: #FEE7E7;
 }
 
-.login-dialog-buttons
+.micro-response .login-dialog-buttons
 {
 	text-align: right;
 }
 
-.login-dialog button
+.micro-response .login-dialog button
 {
 	color: #FFF;
 	font-weight: bold;
@@ -252,7 +252,7 @@ a.glossaryTerm
 	cursor: pointer;
 }
 
-.login-dialog button.close-dialog
+.micro-response .login-dialog button.close-dialog
 {
 	position: absolute;
 	top: 8px;
@@ -266,7 +266,7 @@ a.glossaryTerm
 	border: 0;
 }
 
-.login-dialog .status-message-box
+.micro-response .login-dialog .status-message-box
 {
 	display: none;
 	color: #0F0;
@@ -280,38 +280,38 @@ a.glossaryTerm
 	border-radius: 3px;
 }
 
-.login-dialog .status-message-box.error
+.micro-response .login-dialog .status-message-box.error
 {
 	color: #F00;
 	border: solid 1px #F00;
 	background-color: #FEE7E7;
 }
 
-.login-dialog .status-message-box .message
+.micro-response .login-dialog .status-message-box .message
 {
 	display: none;
 }
 
-.backlink-container
+.micro-response .backlink-container
 {
 	position: absolute;
 	bottom: 11px;
 	right: 20px;
 }
 
-.backlink-container-topnav
+.micro-response .backlink-container-topnav
 {
 	bottom: 4px;
 	right: 4px;
 }
 
-.backlink-container-sidenav
+.micro-response .backlink-container-sidenav
 {
 	bottom: 20px;
 	right: 20px;
 }
 
-#mc-backlink
+.micro-response #mc-backlink
 {
 	text-decoration: none;
 	color: #7d858a;
@@ -320,12 +320,12 @@ a.glossaryTerm
 	font-weight: normal;
 }
 
-#mc-backlink > sup
+.micro-response #mc-backlink > sup
 {
 	font-size: 12px;
 }
 
-.height-container
+.micro-response .height-container
 {
 	/* just to contain top margin of element inside */
 	padding-top: 0.1px;
@@ -333,19 +333,19 @@ a.glossaryTerm
 	box-sizing: border-box;
 }
 
-.height-container-no-footer
+.micro-response .height-container-no-footer
 {
 	padding-bottom: 30px;
 }
 
-.height-container-sidenav
+.micro-response .height-container-sidenav
 {
 	padding-bottom: 40px;
 }
 
 /* to contain floating elements in the div */
 
-.height-container:after
+.micro-response .height-container:after
 {
 	visibility: hidden;
 	display: block;
@@ -355,7 +355,7 @@ a.glossaryTerm
 	height: 0;
 }
 
-div.MCBreadcrumbsBox_0
+.micro-response div.MCBreadcrumbsBox_0
 {
 	border-bottom: none;
 	font-size: .7em;
@@ -367,36 +367,36 @@ div.MCBreadcrumbsBox_0
 	margin-bottom: 10px;
 }
 
-.glossaryTerm
+.micro-response .glossaryTerm
 {
 	font-weight: bold;
 	color: Olive;
 }
 
-.glossaryTerm:link
+.micro-response .glossaryTerm:link
 {
 	font-weight: bold;
 	color: Olive;
 }
 
-.glossaryTerm.glossaryTermPopup
+.micro-response .glossaryTerm.glossaryTermPopup
 {
 	width: 350px;
 	color: #778899;
 }
 
-.glossaryTerm.glossaryTermPopup:link
+.micro-response .glossaryTerm.glossaryTermPopup:link
 {
 	width: 350px;
 	color: #778899;
 }
 
-.glossaryTerm:hover
+.micro-response .glossaryTerm:hover
 {
 	color: #5f9ea0;
 }
 
-.MCTextPopup_Open.MCTextPopupHotSpot_.MCTextPopupHotSpot_Popup
+.micro-response .MCTextPopup_Open.MCTextPopupHotSpot_.MCTextPopupHotSpot_Popup
 {
 	background-position: right;
 	background-image: url('ExpandingOpen.gif');
@@ -404,7 +404,7 @@ div.MCBreadcrumbsBox_0
 	padding-left: 0;
 }
 
-.MCTextPopup_Closed.MCTextPopupHotSpot_.MCTextPopupHotSpot_Popup
+.micro-response .MCTextPopup_Closed.MCTextPopupHotSpot_.MCTextPopupHotSpot_Popup
 {
 	background-position: right;
 	background-image: url('ExpandingClosed.gif');
@@ -412,7 +412,7 @@ div.MCBreadcrumbsBox_0
 	padding-left: 0;
 }
 
-.popupBody
+.micro-response .popupBody
 {
 	color: #000000;
 	background-color: #dcdcdc;
@@ -421,17 +421,17 @@ div.MCBreadcrumbsBox_0
 	padding: 5px;
 }
 
-.MCWebHelpFramesetLink a
+.micro-response .MCWebHelpFramesetLink a
 {
 	
 }
 
-.MCWebHelpFramesetLink.MCWebHelpFramesetLinkTop a
+.micro-response .MCWebHelpFramesetLink.MCWebHelpFramesetLinkTop a
 {
 	
 }
 
-.MCWebHelpFramesetLink.MCWebHelpFramesetLinkBottom a
+.micro-response .MCWebHelpFramesetLink.MCWebHelpFramesetLinkBottom a
 {
 	
 }
